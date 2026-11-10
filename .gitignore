@@ -1,20 +1,69 @@
-# Dependencies
+# ==========================================
+# NODE.JS
+# ==========================================
 node_modules/
+frontend/node_modules/
 
-# Environment variables
+# ==========================================
+# EXCLUDED PROJECT FOLDERS
+# ==========================================
+
+# AI Engine
+ai_engine/
+
+# Backend Models
+backend/app/models/
+
+# Backend Services
+backend/app/services/
+
+# ==========================================
+# PYTHON CACHE
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# ==========================================
+# ENVIRONMENT VARIABLES
+# ==========================================
 .env
-.env.local
-.env.production
+.env.*
+!.env.example
 
-# Build files
+# ==========================================
+# BUILD FILES
+# ==========================================
 dist/
 build/
+.next/
+coverage/
 
-# Logs
+# ==========================================
+# TEST CACHE
+# ==========================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+# ==========================================
+# LOGS
+# ==========================================
+*.log
 npm-debug.log*
 yarn-debug.log*
-pnpm-debug.log*
 
-# OS files
+# ==========================================
+# IDE & SYSTEM
+# ==========================================
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db

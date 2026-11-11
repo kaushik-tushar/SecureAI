@@ -202,7 +202,7 @@ Install the following before starting:
 | Requirement | Purpose |
 |---|---|
 | Python 3.10+ | Backend development |
-| Node.js 18+ | Frontend development |
+| React.js 18+ | Frontend development |
 | npm | Frontend dependencies |
 | Git | Version control |
 | VS Code | Development environment |
